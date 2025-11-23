@@ -1,0 +1,33 @@
+:root{
+    --text-color:black;
+    --link-color: blue;
+    --background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins",sans-serif;
+    background-color: var(--background-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+/* NAVBAR */
+
+nav {
+display:flex;
+justify-content:space-between;
+padding: 0 10px;
+}
